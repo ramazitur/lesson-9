@@ -1,0 +1,199 @@
+.conteiner {
+    max-width: 1920px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+/* ნავიგაცია */
+
+header {
+    width: 85.4%;
+    margin: 0 auto;
+    margin-top: 52px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+
+}
+
+nav {
+    padding-top: 29px;
+    margin-left: 709px;
+}
+
+ul {
+    color: #707070;
+    font-size: 20px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    gap: 70px;
+}
+
+li:hover {
+    cursor: pointer;
+}
+
+.fa-magnifying-glass {
+    padding-top: 29px;
+
+}
+
+/* სურათის ცსს სით შემოტანა */
+.foto {
+    width: 1640px;
+    height: 613px;
+    margin: 0 auto;
+    margin-top: 60px;
+    background-image: url(../picture.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+
+
+}
+
+/* სექცია 1  */
+
+.section1 {
+    width: 85.4%;
+    margin: 0 auto;
+    margin-top: 153px;
+
+}
+
+.satauri {
+    font-size: 40px;
+    font-weight: bold;
+    color: #707070;
+    padding-bottom: 60px;
+
+}
+
+.card {
+    width: 100%;
+    display: flex;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    gap: 91px;
+
+}
+
+.card1 {
+    width: 29.5%;
+    height: 563px;
+    box-shadow: 1px 1px 15px 1px #707070;
+
+
+
+}
+
+.photo {
+    width: 100%;
+    height: 282px;
+}
+
+.photoname {
+    font-size: 30px;
+    font-weight: bold;
+    color: #707070;
+    padding-left: 12px;
+    padding-top: 31px;
+}
+
+.textend {
+    padding-top: 37px;
+    padding-left: 12px;
+    padding-right: 23px;
+    display: flex;
+    flex-direction: column;
+}
+
+.ptex1 {
+    font-size: 18px;
+    font-weight: bold;
+    color: #707070;
+}
+
+.more {
+    font-size: 24px;
+    font-weight: bold;
+    color: #707070;
+    padding-top: 85px;
+    text-align: end;
+}
+
+/* ღილაკი Load more */
+
+.load {
+
+    width: 100%;
+    text-align: center;
+    margin-top: 65px;
+    font-size: 30px;
+    font-weight: bold;
+    color: #707070;
+    text-decoration-line: underline;
+    cursor: pointer;
+
+
+}
+
+/* მეორე სექცია - პირველი სექციის ანალოგი */
+
+.section2 {
+    margin-top: 67px;
+
+}
+
+
+/* ფუტერი გვერდის ბოლო სექცია */
+
+footer {
+    max-width: 1920px;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 75px;
+    background-color: #2e2e2e;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+
+}
+
+.footlogo {
+    padding-top: 49px;
+    padding-bottom: 63px;
+
+}
+
+.contact {
+    width: 123px;
+    height: 60px;
+    padding-top: 73px;
+    font-size: 13px;
+    color: #f2f2f2;
+    text-align: start;
+
+}
+
+
+.address {
+    width: 238px;
+    height: 42px;
+    padding-top: 73px;
+    font-size: 13px;
+    color: #f2f2f2;
+    text-align: start;
+}
+
+.icons {
+    display: flex;
+    padding-top: 73px;
+    font-size: 35px;
+    color: #f8f8f8;
+    gap: 34px;
+}
