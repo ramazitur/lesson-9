@@ -1,3 +1,10 @@
+@media screen and (min-width: 480px) {
+    .loadbottom {
+        display: none;
+    }
+}
+
+
 @media screen and (max-width: 480px) {
     header {
         justify-content: space-around;
@@ -83,7 +90,10 @@
         margin-top: 35px;
     }
 
-/* აქ უნდა იყოს load more ეს ვერ მივხდი როგორ შემოვიტანო. */
+    .loadmore {
+        display: flex;
+        position: absolute;
+    }
 
     /* footer ბოლო სექცია */
 
@@ -119,3 +129,4 @@
     }
 
 }
+
